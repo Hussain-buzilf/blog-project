@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- 
   "scripts": {
     "start": "node -r esm server.js",
     "dev": "nodemon -r esm server.js"
-
   },
   "repository": {
     "type": "git",
@@ -21,9 +19,10 @@
   },
   "homepage": "https://github.com/Hussain-buzilf/blog-project#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
     "esm": "^3.2.25",
     "express": "^4.19.2",
-    "mongoose": "^8.2.3"
+    "mongoose": "^6.9.2"
   }
 }
