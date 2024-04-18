@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-
+export function logout() {
+    // Function implementation
+  }
 const userInitialState = { userInfo: null };
 
 const userSlice = createSlice({
